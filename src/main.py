@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import subprocess
 from datetime import datetime
-from src.converter import MarkdownToWordConverter
+from converter import MarkdownToWordConverter
 
 # Configure Advanced Logging in Main Script
 log_file = "conversion_log.txt"
